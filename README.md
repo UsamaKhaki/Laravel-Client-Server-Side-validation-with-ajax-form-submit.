@@ -72,7 +72,7 @@ defaults = {
 | `reponseDelay` | Integer | 1000 | This option is created for putting delay in ajax request |
 | `useDefualtLoader` | Boolean | `true` or `false` | This option is created for putting loader in ajax request |
 | `showLoadingParent` | String | `body` | This option is created for assigning parent element where loader will display. |
-| `loaderBody` | String | `<div class="loader-wrapper" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; flex-flow: column; text-align: center; font-weight: 600; font-size: 14px; background: rgba(255, 255, 255, 0.9); z-index: 10000000"><div style="margin-bottom: 10px; border: 5px solid #f3f3f3;border-top: 5px solid #8bc34a;border-radius: 50%;width: 40px;height: 40px;animation: spin 2s linear infinite;" id="custom-loader"></div>Submitting Form <br> please wait....</div>` | Template for loader. |
+| `loaderBody` | String | `` | Template for loader. Default template you can see in the Defaults Settings above. |
 | `errorCss` | Object | `{}` | Error tag CSS |
 | `beforeSubmit` | Function | `function(): {return true}` | This function is created for adding any functionality before submit form. |
 | `success` | Function | `function(): {return true}` | This function is created for getting response of the submitted form. |
